@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo_project/firstui_demo.dart';
+import 'package:flutter_demo_project/divider_ui_demo.dart';
 // import 'package:flutter_demo_project/instagram_ui_demo.dart';
 //import 'package:flutter_demo_project/first_ui.dart';
 
@@ -12,6 +12,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-        debugShowCheckedModeBanner: false, home: FirstUiDemo());
+        debugShowCheckedModeBanner: false, home: DividerDemo());
   }
 }

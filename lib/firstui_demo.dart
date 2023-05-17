@@ -96,7 +96,6 @@ class FirstUiDemo extends StatelessWidget {
               ),
             ),
             Stack(
-              fit: ,
               children: [
                 Container(
                   margin: const EdgeInsets.only(top: 20.0, right: 8, left: 8),
