@@ -14,10 +14,10 @@ class FirstUiDemo extends StatelessWidget {
               padding: const EdgeInsets.only(top: 8.0, left: 20, right: 20),
               child: Row(
                 children: [
-                  Expanded(
+                  const Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Icon(
                           Icons.menu,
                           size: 35,
@@ -40,9 +40,9 @@ class FirstUiDemo extends StatelessWidget {
                         Radius.circular(20),
                       ),
                     ),
-                    child: Row(
+                    child: const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: const [
+                      children: [
                         Icon(
                           Icons.account_circle,
                           color: Colors.white,
@@ -73,8 +73,8 @@ class FirstUiDemo extends StatelessWidget {
                   Radius.circular(15),
                 ),
               ),
-              child: Row(
-                children: const [
+              child: const Row(
+                children: [
                   Icon(
                     Icons.account_circle,
                     color: Colors.red,
@@ -105,11 +105,11 @@ class FirstUiDemo extends StatelessWidget {
                       color: Colors.white,
                       borderRadius: BorderRadius.all(Radius.circular(15))),
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Column(
-                      children: const [
+                      children: [
                         CircleAvatar(
                           radius: 33,
                           backgroundColor: Colors.white,
@@ -127,7 +127,7 @@ class FirstUiDemo extends StatelessWidget {
                       ],
                     ),
                     Column(
-                      children: const [
+                      children: [
                         CircleAvatar(
                           radius: 33,
                           backgroundColor: Colors.white,
@@ -145,7 +145,7 @@ class FirstUiDemo extends StatelessWidget {
                       ],
                     ),
                     Column(
-                      children: const [
+                      children: [
                         CircleAvatar(
                           radius: 33,
                           backgroundColor: Colors.white,
@@ -163,7 +163,7 @@ class FirstUiDemo extends StatelessWidget {
                       ],
                     ),
                     Column(
-                      children: const [
+                      children: [
                         CircleAvatar(
                           radius: 33,
                           backgroundColor: Colors.white,
@@ -197,11 +197,11 @@ class FirstUiDemo extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Column(
+                  const Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Column(
-                        children: const [
+                        children: [
                           Icon(
                             Icons.car_rental,
                             color: Colors.blue,
@@ -214,7 +214,7 @@ class FirstUiDemo extends StatelessWidget {
                         ],
                       ),
                       Column(
-                        children: const [
+                        children: [
                           Icon(
                             Icons.self_improvement,
                             color: Colors.blue,
@@ -239,8 +239,8 @@ class FirstUiDemo extends StatelessWidget {
                             end: Alignment.bottomCenter,
                           ),
                         ),
-                        child: Column(
-                          children: const [
+                        child: const Column(
+                          children: [
                             Icon(
                               Icons.home,
                               color: Colors.red,
@@ -253,8 +253,8 @@ class FirstUiDemo extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Column(
-                        children: const [
+                      const Column(
+                        children: [
                           Icon(
                             Icons.home_mini,
                             color: Colors.red,
@@ -268,11 +268,11 @@ class FirstUiDemo extends StatelessWidget {
                       )
                     ],
                   ),
-                  Column(
+                  const Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Column(
-                        children: const [
+                        children: [
                           Icon(
                             Icons.cabin,
                             color: Colors.amber,
@@ -285,7 +285,7 @@ class FirstUiDemo extends StatelessWidget {
                         ],
                       ),
                       Column(
-                        children: const [
+                        children: [
                           Icon(
                             Icons.airplane_ticket,
                             color: Colors.amber,
@@ -299,11 +299,11 @@ class FirstUiDemo extends StatelessWidget {
                       )
                     ],
                   ),
-                  Column(
+                  const Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Column(
-                        children: const [
+                        children: [
                           Icon(
                             Icons.star,
                             color: Colors.deepPurple,
@@ -316,7 +316,7 @@ class FirstUiDemo extends StatelessWidget {
                         ],
                       ),
                       Column(
-                        children: const [
+                        children: [
                           Icon(
                             Icons.book,
                             color: Colors.deepPurple,
@@ -393,10 +393,10 @@ class FirstUiDemo extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 10.0, top: 15.0),
+            const Padding(
+              padding: EdgeInsets.only(left: 10.0, top: 15.0),
               child: Row(
-                children: const [
+                children: [
                   Text(
                     'Welcome Offer For you,Angel',
                     style: TextStyle(
@@ -436,11 +436,11 @@ class FirstUiDemo extends StatelessWidget {
               ),
               height: 52.5,
 
-              child: Row(
+              child: const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.account_circle,
                         color: Colors.white,
@@ -454,7 +454,7 @@ class FirstUiDemo extends StatelessWidget {
                     ],
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.trip_origin,
                         color: Colors.white,
@@ -468,7 +468,7 @@ class FirstUiDemo extends StatelessWidget {
                     ],
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.local_offer,
                         color: Colors.white,
@@ -482,7 +482,7 @@ class FirstUiDemo extends StatelessWidget {
                     ],
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.mail,
                         color: Colors.white,
@@ -496,7 +496,7 @@ class FirstUiDemo extends StatelessWidget {
                     ],
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.money,
                         color: Colors.white,
