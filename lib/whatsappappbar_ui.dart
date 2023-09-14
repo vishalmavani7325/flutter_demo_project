@@ -19,11 +19,11 @@ class WhatsappUiAppbarDemo extends StatelessWidget {
           ),
           Icon(Icons.more_vert),
         ],
-        bottom: PreferredSize(
-          preferredSize: const Size(double.infinity, 35),
+        bottom: const PreferredSize(
+          preferredSize: Size(double.infinity, 35),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: const [
+            children: [
               Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Icon(Icons.group),

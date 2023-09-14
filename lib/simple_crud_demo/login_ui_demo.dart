@@ -20,7 +20,7 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   String? name, password;
-  bool? _securetext=false;
+//  final bool? _securetext=false;
 
   String name1 = '';
   bool isSelected = false;

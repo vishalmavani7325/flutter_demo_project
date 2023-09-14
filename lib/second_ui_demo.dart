@@ -4,7 +4,7 @@ class ExpandedSingleChild extends StatelessWidget {
   const ExpandedSingleChild({super.key});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Column(
         children: [
           Expanded(
@@ -13,7 +13,7 @@ class ExpandedSingleChild extends StatelessWidget {
               child: Row(
                 children: [
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -24,11 +24,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -39,11 +39,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -54,11 +54,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -69,11 +69,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -84,11 +84,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -99,11 +99,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -114,11 +114,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -129,11 +129,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -144,11 +144,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -159,11 +159,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -183,7 +183,7 @@ class ExpandedSingleChild extends StatelessWidget {
             child: SingleChildScrollView(
               scrollDirection: Axis.vertical,
               child: Column(
-                children: const [
+                children: [
                   Icon(
                     Icons.bike_scooter,
                     size: 35,
@@ -279,7 +279,7 @@ class ExpandedSingleChild extends StatelessWidget {
               child: Row(
                 children: [
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -290,11 +290,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -305,11 +305,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -320,11 +320,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -335,11 +335,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -350,11 +350,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -365,11 +365,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -380,11 +380,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -395,11 +395,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -410,11 +410,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -425,11 +425,11 @@ class ExpandedSingleChild extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 5,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.group,
                         size: 35,
@@ -447,12 +447,11 @@ class ExpandedSingleChild extends StatelessWidget {
           Expanded(
             flex: 3,
             child: SingleChildScrollView(
-              physics:
-                  const ScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
-              padding: const EdgeInsets.only(left: 150),
+              physics: ScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
+              padding: EdgeInsets.only(left: 150),
               scrollDirection: Axis.vertical,
               child: Column(
-                children: const [
+                children: [
                   Icon(
                     Icons.car_rental,
                     size: 35,

@@ -12,11 +12,11 @@ class WhatsAppUi extends StatelessWidget {
             height: 150,
             width: 650,
             color: Colors.green,
-            child: Column(
+            child: const Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Row(
-                  children: const [
+                  children: [
                     Expanded(
                       child: Text(
                         "WhatsApp",
@@ -45,7 +45,7 @@ class WhatsAppUi extends StatelessWidget {
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.group,
                       size: 30,
@@ -101,11 +101,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -143,11 +143,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -185,11 +185,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -227,11 +227,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -269,11 +269,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -311,11 +311,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -353,11 +353,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -395,11 +395,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -437,11 +437,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -479,11 +479,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -521,11 +521,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -563,11 +563,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -605,11 +605,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mintan Lathiya",
                               style: TextStyle(
@@ -647,11 +647,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Hardik Lathiya",
                               style: TextStyle(
@@ -689,11 +689,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Vishal Lathiya",
                               style: TextStyle(
@@ -731,11 +731,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Ashish Mavani",
                               style: TextStyle(
@@ -773,11 +773,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Balu Amipara",
                               style: TextStyle(
@@ -815,11 +815,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Chirag Ramani",
                               style: TextStyle(
@@ -857,11 +857,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           // mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Kaushik Jogani",
                               style: TextStyle(
@@ -899,11 +899,11 @@ class WhatsAppUi extends StatelessWidget {
                           size: 25,
                         ),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Mahendar Variya",
                               style: TextStyle(

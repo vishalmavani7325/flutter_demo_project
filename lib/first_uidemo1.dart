@@ -8,9 +8,9 @@ class FirstCopyUi extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: const [
+            children: [
               Text(
                 "\$1200",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -34,9 +34,9 @@ class FirstCopyUi extends StatelessWidget {
                     bottomLeft: Radius.circular(30),
                   ),
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.search,
                       size: 50,
@@ -62,9 +62,9 @@ class FirstCopyUi extends StatelessWidget {
                     bottomRight: Radius.circular(30),
                   ),
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.money,
                       size: 50,
@@ -95,9 +95,9 @@ class FirstCopyUi extends StatelessWidget {
                     bottomRight: Radius.circular(30),
                   ),
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.print,
                       size: 50,
@@ -123,9 +123,9 @@ class FirstCopyUi extends StatelessWidget {
                     bottomLeft: Radius.circular(30),
                   ),
                 ),
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.photo,
                       size: 50,
@@ -165,9 +165,9 @@ class FirstCopyUi extends StatelessWidget {
                     size: 38,
                   ),
                 ),
-                Column(
+                const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Text(
                       "Shell Darwen",
                       style: TextStyle(
@@ -181,9 +181,9 @@ class FirstCopyUi extends StatelessWidget {
                     )
                   ],
                 ),
-                Column(
+                const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Text(
                       "\$30",
                       style: TextStyle(
@@ -223,9 +223,9 @@ class FirstCopyUi extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ),
-                Column(
+                const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Text(
                       "John Doe",
                       style: TextStyle(
@@ -239,9 +239,9 @@ class FirstCopyUi extends StatelessWidget {
                     ),
                   ],
                 ),
-                Column(
+                const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Text(
                       "\$50",
                       style: TextStyle(
