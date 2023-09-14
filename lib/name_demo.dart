@@ -4,7 +4,7 @@ class NameDemo extends StatelessWidget {
   const NameDemo({super.key});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
@@ -12,14 +12,14 @@ class NameDemo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
                 ],
               ),
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
@@ -31,21 +31,21 @@ class NameDemo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
                 ],
               ),
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
                 ],
               ),
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
@@ -57,28 +57,28 @@ class NameDemo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
                 ],
               ),
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
                 ],
               ),
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
                 ],
               ),
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
@@ -90,14 +90,14 @@ class NameDemo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),
                 ],
               ),
               Column(
-                children: const [
+                children: [
                   Text("Vishal"),
                   Text("S"),
                   Text("Mavani"),

@@ -7,8 +7,8 @@ class InstagramUiDemo extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Row(
-            children: const [
+          const Row(
+            children: [
               Expanded(
                 flex: 9,
                 child: Text(
@@ -477,10 +477,10 @@ class InstagramUiDemo extends StatelessWidget {
                                   "https://upload.wikimedia.org/wikipedia/en/6/60/Logo_inDriver.png"),
                             )),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "indrive.in",
                               style: TextStyle(
@@ -542,8 +542,8 @@ class InstagramUiDemo extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Icon(
                         Icons.favorite,
                         size: 20,
@@ -574,10 +574,10 @@ class InstagramUiDemo extends StatelessWidget {
                       )
                     ],
                   ),
-                  Column(
+                  const Column(
                     children: [
                       Row(
-                        children: const [
+                        children: [
                           Icon(
                             Icons.groups_2,
                             color: Colors.deepOrangeAccent,
@@ -606,7 +606,7 @@ class InstagramUiDemo extends StatelessWidget {
                         ],
                       ),
                       Row(
-                        children: const [
+                        children: [
                           Text(
                             " Vishal ",
                             style: TextStyle(
@@ -619,12 +619,12 @@ class InstagramUiDemo extends StatelessWidget {
                         ],
                       ),
                       Row(
-                        children: const [
+                        children: [
                           Text(" Viwe all 7 comments"),
                         ],
                       ),
                       Row(
-                        children: const [
+                        children: [
                           Text(
                             "  7 hours ago",
                             style: TextStyle(fontSize: 10),
@@ -662,10 +662,10 @@ class InstagramUiDemo extends StatelessWidget {
                                   "https://upload.wikimedia.org/wikipedia/en/6/60/Logo_inDriver.png"),
                             )),
                       ),
-                      Expanded(
+                      const Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "indrive.in",
                               style: TextStyle(
@@ -727,8 +727,8 @@ class InstagramUiDemo extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Icon(
                         Icons.favorite,
                         size: 20,
@@ -755,8 +755,8 @@ class InstagramUiDemo extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           Icon(
                             Icons.groups_2,
                             color: Colors.deepOrangeAccent,
@@ -784,8 +784,8 @@ class InstagramUiDemo extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           Text(
                             "Vishal ",
                             style: TextStyle(
@@ -797,10 +797,10 @@ class InstagramUiDemo extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Column(
+                      const Column(
                         //mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children: [
                           Text("Viwe all 7 comments"),
                           Text(
                             "7 hours ago",
@@ -808,9 +808,9 @@ class InstagramUiDemo extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Row(
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: const [
+                        children: [
                           Text(
                             "  Suggested you",
                             style: TextStyle(
@@ -1559,10 +1559,10 @@ class InstagramUiDemo extends StatelessWidget {
                                       "https://upload.wikimedia.org/wikipedia/en/6/60/Logo_inDriver.png"),
                                 )),
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text(
                                   "indrive.in",
                                   style: TextStyle(
@@ -1625,8 +1625,8 @@ class InstagramUiDemo extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           Icon(
                             Icons.favorite,
                             size: 20,
@@ -1653,8 +1653,8 @@ class InstagramUiDemo extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          Row(
-                            children: const [
+                          const Row(
+                            children: [
                               Icon(
                                 Icons.groups_2,
                                 color: Colors.deepOrangeAccent,
@@ -1682,8 +1682,8 @@ class InstagramUiDemo extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Row(
-                            children: const [
+                          const Row(
+                            children: [
                               Text(
                                 "Vishal ",
                                 style: TextStyle(
@@ -1695,10 +1695,10 @@ class InstagramUiDemo extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Column(
+                          const Column(
                             //mainAxisAlignment: MainAxisAlignment.start,
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            children: const [
+                            children: [
                               Text("Viwe all 7 comments"),
                               Text(
                                 "7 hours ago",
@@ -1725,10 +1725,10 @@ class InstagramUiDemo extends StatelessWidget {
                                           "https://upload.wikimedia.org/wikipedia/en/6/60/Logo_inDriver.png"),
                                     )),
                               ),
-                              Expanded(
+                              const Expanded(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: const [
+                                  children: [
                                     Text(
                                       "indrive.in",
                                       style: TextStyle(
@@ -1791,8 +1791,8 @@ class InstagramUiDemo extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Row(
-                            children: const [
+                          const Row(
+                            children: [
                               Icon(
                                 Icons.favorite,
                                 size: 20,
@@ -1817,10 +1817,10 @@ class InstagramUiDemo extends StatelessWidget {
                               )
                             ],
                           ),
-                          Column(
+                          const Column(
                             children: [
                               Row(
-                                children: const [
+                                children: [
                                   Icon(
                                     Icons.groups_2,
                                     color: Colors.deepOrangeAccent,
@@ -1851,7 +1851,7 @@ class InstagramUiDemo extends StatelessWidget {
                                 ],
                               ),
                               Row(
-                                children: const [
+                                children: [
                                   Text(
                                     "Vishal ",
                                     style: TextStyle(
@@ -1867,7 +1867,7 @@ class InstagramUiDemo extends StatelessWidget {
                               Column(
                                 //mainAxisAlignment: MainAxisAlignment.start,
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                children: const [
+                                children: [
                                   Text("Viwe all 7 comments"),
                                   Text(
                                     "7 hours ago",

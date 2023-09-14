@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class AppbarUiDemo extends StatelessWidget {
@@ -15,10 +16,10 @@ class AppbarUiDemo extends StatelessWidget {
           Icon(Icons.search),
           Icon(Icons.more_vert),
         ],
-        bottom: PreferredSize(
-            preferredSize: const Size(double.infinity, 70),
+        bottom: const PreferredSize(
+            preferredSize: Size(double.infinity, 70),
             child: Row(
-              children: const [
+              children: [
                 Icon(Icons.group),
                 Text("Chat"),
                 Text("Status"),
@@ -26,13 +27,16 @@ class AppbarUiDemo extends StatelessWidget {
               ],
             )),
       ),
-      bottomNavigationBar: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: const [
-          Icon(Icons.share),
-          Icon(Icons.home),
-        ],
-      ),
+      // bottomNavigationBar: const Row(
+      //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //   children: [
+      //     Icon(Icons.share),
+      //     Icon(Icons.home),
+      //   ],
+      // ),
+      bottomNavigationBar: BottomNavigationBar(items: const [
+        BottomNavigationBarItem(icon: Icon(Icons.add), label: "Add")
+      ]),
       floatingActionButton: FloatingActionButton(
           onPressed: () {}, child: const Icon(Icons.add_box_outlined)),
     );

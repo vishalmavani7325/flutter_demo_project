@@ -8,11 +8,11 @@ class FirstUiDemo extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Row(
+          const Row(
             // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Column(
-                children: const [
+                children: [
                   Text(
                     '\$1200',
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -25,7 +25,7 @@ class FirstUiDemo extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Column(),
+              const Column(),
               Container(
                 height: 150,
                 width: 150,
@@ -83,8 +83,8 @@ class FirstUiDemo extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Icon(Icons.photo_album),
                 ],
               ),
